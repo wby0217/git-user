@@ -1,7 +1,7 @@
 ## git使用命令大全
 
 ##查看、添加、提交、删除、找回，重置修改文件
-    ```
+```
     git help <command> # 显示command的help
 
     git show # 显示某次提交的内容 git show $id
@@ -33,7 +33,7 @@
     git revert HEAD # 恢复最后一次提交的状态
     ```
 ##查看文件diff
-    ```
+```
     git diff <file> # 比较当前文件和暂存区文件差异 git diff
 
     git diff <id1><id1><id2> # 比较两次提交之间的差异
